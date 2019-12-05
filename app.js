@@ -51,6 +51,6 @@ app.listen(process.env.PORT, process.env.IP, function(err){
     if(err){
         console.log(err);
     } else {
-        console.log("Server is running, listening on port " + port);
+        console.log("Server is running, listening on port " + PORT);
     }
 });
