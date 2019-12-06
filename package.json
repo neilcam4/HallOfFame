@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/neilcam4/HallOfFame/issues"
   },
-  "homepage": "https://github.com/neilcam4/HallOfFame#readme"
+  "homepage": "https://github.com/neilcam4/HallOfFame#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
 }

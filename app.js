@@ -4,7 +4,7 @@ var app = express();
 var PORT=5000 || process.env.PORT;
 
 app.get('/', function(res,res){
-    res.prependListener("players")
+    res.render("players")
 })
 
 app.get('/new', function(req,res){
