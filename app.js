@@ -2,7 +2,7 @@ require('dotenv').config();
 var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
-var PORT=5000;
+var port=5000;
 var bodyParser = require('body-parser');
 var methodOverride=require('method-override');
 var passport=require('passport');
@@ -47,10 +47,10 @@ app.use(playerRoutes);
 
 
 //Schema
-app.listen(process.env.PORT, process.env.IP, function(err){
+app.listen(port, function(err){
     if(err){
         console.log(err);
     } else {
-        console.log("Server is running, listening on port " + PORT);
+        console.log("Server is running, listening on port " + port);
     }
 });
