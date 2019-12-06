@@ -1,3 +1,3 @@
 <?php
-    include_once("index.ejs")
+    include_once("views/index")
 ?>
